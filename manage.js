@@ -229,12 +229,13 @@ function updateDepartments(departments) {
         {
             type: "confirm",
             message: "Are you sure?",
+            name: "confirmRemove",
             when: (answers) => answers.choice == "Remove"
         },
         {
             type: "input",
             message: "What is the name of the department you'd like to add?",
-            name: "addDapartment",
+            name: "addDepartment",
             when: (answers) => answers.choice == "Add"
         },
     ]
@@ -284,12 +285,13 @@ function updateRoles(roles, departments) {
         {
             type: "confirm",
             message: "Are you sure?",
+            name: "confirmRemove",
             when: (answers) => answers.choice == "Remove"
         },
         {
             type: "input",
             message: "What is the name of the new role?",
-            name: "addName",
+            name: "addRole",
             when: (answers) => answers.choice == "Add"
         },
         {

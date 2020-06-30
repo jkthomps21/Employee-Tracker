@@ -153,7 +153,7 @@ async function departmentMenu() {
         switch (updateDepartments.choice) {
           case "Add":
             await query("INSERT INTO department SET ?", {
-              name: updateDepartments.addName
+              name: updateDepartments.addDepartment,
             });
             break;
           case "Remove":
@@ -169,7 +169,7 @@ async function departmentMenu() {
         switch (updateRoles.choice) {
           case "Add":
             await query("INSERT INTO role SET ?", {
-              title: updateRoles.addName,
+              title: updateRoles.addRole,
               salary: updateRoles.newSalary,
               department_id: updateRoles.newDepartmentId
             });

@@ -170,12 +170,12 @@ async function departmentMenu() {
           case "Add":
             await query("INSERT INTO role SET ?", {
               title: updateRoles.addRole,
-              salary: updateRoles.newSalary,
+              salary: updateRoles.addSalary,
               department_id: updateRoles.newDepartmentId
             });
             break;
           case "Remove":
-            console.log("Employee Removed");
+            console.log("Role Removed");
             await query("DELETE FROM role WHERE ?", { id: updateRoles.removeId });
         }
         break;

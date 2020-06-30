@@ -283,12 +283,6 @@ function updateRoles(roles, departments) {
             when: (answers) => answers.choice == "Remove"
         },
         {
-            type: "confirm",
-            message: "Are you sure?",
-            name: "confirmRemove",
-            when: (answers) => answers.choice == "Remove"
-        },
-        {
             type: "input",
             message: "What is the name of the new role?",
             name: "addRole",
@@ -316,7 +310,7 @@ function updateRoles(roles, departments) {
         {
             type: "input",
             message: "What is the salary for this new role?",
-            name: "newSalary",
+            name: "addSalary",
             when: (answers) => answers.choice == "Add"
         },
     ]

@@ -39,3 +39,8 @@ This project was created by jkthomps21.
 Please contact them here to report any issues: <a href="mailto:jkthomps21@gmail.com">Report Issues</a>
 
 ## Screenshot(s)
+![Image of CLI - 1](https://user-images.githubusercontent.com/49950576/86139020-d645ce00-bab4-11ea-9e06-299a7914e3eb.png)
+
+![Image of CLI - 2](https://user-images.githubusercontent.com/49950576/86139098-f2496f80-bab4-11ea-98f5-ecbd7b24534a.png)
+
+![Image of CLI - 3](https://user-images.githubusercontent.com/49950576/86139163-07260300-bab5-11ea-9f35-53adababa7f7.png)

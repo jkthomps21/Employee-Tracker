@@ -163,7 +163,7 @@ async function departmentMenu() {
             }
         }
         break;
-      case "updateRoles":
+      case "manageRoles":
         let updateRoles = await userPrompt(manageJS.updateRoles(roles, departments));
         console.log(updateRoles);
         switch (updateRoles.choice) {
